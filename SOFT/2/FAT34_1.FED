@@ -1,0 +1,36 @@
+;#<FEEDBACK># ARM Linker, 4.1 [Build 644]: Last Updated: Wed May 24 21:50:59 2017
+;VERSION 0.2
+;FILE 24c01.o
+_24c01_read_byte <= USED 0
+_24c01_read_nbyte <= USED 0
+;FILE at45.o
+DF_buffer_to_page <= USED 0
+;FILE common_func.o
+abs <= USED 0
+bcd2lcd_zero <= USED 0
+ptr_carry <= USED 0
+;FILE gran.o
+;FILE i2c.o
+i2c_init <= USED 0
+;FILE ibatton.o
+;FILE main.o
+char2indh_sf <= USED 0
+in_an <= USED 0
+in_drv <= USED 0
+short2indh_sf <= USED 0
+wrk_drv <= USED 0
+;FILE memo.o
+;FILE spi_stm32f103.o
+spi_hi_speed <= USED 0
+spi_init <= USED 0
+spi_send <= USED 0
+spi_ss <= USED 0
+;FILE stm32_init.o
+stm32_GetPCLK1 <= USED 0
+stm32_GetPCLK2 <= USED 0
+;FILE stm32f10x.o
+;FILE uart0.o
+crc_87 <= USED 0
+crc_95 <= USED 0
+getchar0 <= USED 0
+uart_out_adr0 <= USED 0

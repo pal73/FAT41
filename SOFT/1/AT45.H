@@ -1,0 +1,14 @@
+char DF_status_read ( void );
+void df_spi_init ( void );
+void df_port_cs_en ( void );
+void df_port_cs_dis ( void );
+char df_spi (char outb);
+void df_spi_init ( void );
+char DF_status_read ( void );
+long DF_mf_dev_read(void);
+void DF_page_to_buffer(char buff,unsigned page_addr);
+void DF_buffer_to_page_er(char buff,unsigned page_addr);
+void DF_buffer_to_page(char buff,unsigned page_addr);
+void DF_buffer_read(char buff,unsigned buff_addr,unsigned len, char* adr);
+void DF_buffer_write(char buff,unsigned buff_addr,unsigned len, char* adr);
+void DF_memo_to_256(void);

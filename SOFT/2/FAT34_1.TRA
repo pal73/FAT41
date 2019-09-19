@@ -1,0 +1,33 @@
+*** Creating Trace Output File 'FAT34_1.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"stm32f10x.o"'
+### List of Objects: adding '"stm32_init.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"common_func.o"'
+### List of Objects: adding '"eeprom_map.o"'
+### List of Objects: adding '"at45.o"'
+### List of Objects: adding '"ibatton.o"'
+### List of Objects: adding '"memo.o"'
+### List of Objects: adding '"24c01.o"'
+### List of Objects: adding '"i2c.o"'
+### List of Objects: adding '"spi_stm32f103.o"'
+### List of Objects: adding '"gran.o"'
+### List of Objects: adding '"uart0.o"'
+### List of Objects: adding '"cmd.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "stm32f10x.o" "stm32_init.o" "main.o" "common_func.o" "eeprom_map.o" "at45.o" "ibatton.o" "memo.o" "24c01.o" "i2c.o" "spi_stm32f103.o" "gran.o" "uart0.o" "cmd.o" --feedback "FAT34_1.fed" 
+--strict --scatter "FAT34_1.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\FAT34_1.map" -o "FAT34_1.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'FAT34_1.axf'
+### ADS-LD Command File: 'FAT34_1.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'FAT34_1.lnp', Handle=0x0000024C
+### Writing '.lnp' file
+### ADS-LD Command file 'FAT34_1.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

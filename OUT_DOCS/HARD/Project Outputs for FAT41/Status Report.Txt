@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [FAT41.PrjPCB]
+   Generated File[FAT41.TXT]
+   Generated File[FAT41.DRL]
+   Generated File[FAT41.LDP]
+   Generated File[FAT41.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 14:19:38 On 12.07.2011
